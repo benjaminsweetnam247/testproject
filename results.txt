@@ -1,0 +1,9 @@
+TAP version 13
+# should growl
+ok 1 - should growl
+
+1..1
+# tests 1
+# pass 1
+# fail 0
+

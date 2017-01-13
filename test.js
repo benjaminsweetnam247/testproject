@@ -4,6 +4,8 @@ var Bear = require('./app.js');
 
 test('should growl', async t => {
 	var bear = new Bear()
-	var result = bear.growl()
-	t.is(result, 'The any bear says grrr')
+	var says = bear.growl()
+  var runs = bear.run()
+	t.is(says, 'The any bear says grrr')
+  t.is(runs,  'The any bear runs fast')
 })
