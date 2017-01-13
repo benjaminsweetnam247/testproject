@@ -7,3 +7,7 @@ function Bear (type) {
 Bear.prototype.growl = function (says) {
 	return `The ${this.type} bear says ` + (says || 'grrr')
 }
+
+Bear.prototype.run = function () {
+  return `The ${this.type} bear runs fast`
+}
